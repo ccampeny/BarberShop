@@ -1,0 +1,45 @@
+.img__naomi {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-width: 768px){
+    .img__naomi {
+        display: block;
+        margin: auto;
+    }
+    .texto__naomi,
+    .titulo__naomi {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px){
+    .titulo__naomi,
+    .texto__naomi {
+        position: relative;
+        right: 20px;
+    }
+}
+
+.pagination__page {
+    padding: 50px;
+    background-color: $light-gray;
+}
+
+.pagination {
+    .active {
+        background-color: $pagination-active-bg;
+    }
+    li {
+        color: $pagination-color;
+    }
+    .page-link__disabled {
+        color: $pagination-active-color;
+    }
+}
+
+.pagination__nav {
+    border-radius: $pagination-border-radius;
+}

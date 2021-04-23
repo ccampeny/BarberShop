@@ -1,0 +1,33 @@
+.button {
+    padding: .7rem 1rem;
+    border-radius: 30px;
+    font-family: $roboto;
+    font-size: $medium;
+    color: $white;
+}
+
+.button_normal {
+    background-color: $nickel;
+    border: 1px solid $nickel;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    &:hover {
+        background-color: $light-gray;
+        border-color: $light-gray;
+        color: $white;
+    }
+
+    &:focus {
+        background-color: $nickel;
+        border: 3px solid $light-gray;
+    }
+}
+
+
+
+@media (max-width: 768px){
+    .button_mob {
+        text-align: center;
+    }
+}

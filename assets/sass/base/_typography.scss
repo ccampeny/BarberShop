@@ -1,0 +1,38 @@
+h1 {
+    font-family: $playfair;
+    font-weight: $black900;
+    font-size: $xx-large;
+    font-style: italic;
+}
+
+h3 {
+    font-family: $playfair;
+    font-weight: $black900;
+    font-style: italic;
+}
+
+h4 {
+    font-family: $roboto;
+    font-weight: $light-300;
+    font-size: $small;
+    color: $spanish-pink;
+}
+
+h5 {
+    font-family: $playfair;
+    font-weight: $light-300;
+    font-size: $large;
+    color: $nickel;
+}
+
+p {
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: $regular;
+    color: $nickel;
+    line-height: 45px;
+}
+
+span {
+    color: $ruddy-pink;
+}

@@ -1,0 +1,37 @@
+.nav__logo img {
+    width: 3.5rem;
+}
+
+.menu-fijo {
+    z-index: 9999;
+}
+
+.nav__color {
+    background-color: $eerie-black;
+}
+
+.nav__color a:link {
+    color: $white;
+}
+
+.nav-link {
+    color: $white;
+}
+
+.nav-link {
+    &:hover {
+        color: $fuzzy-wuzzy !important;
+    }
+}
+
+h4 {
+    &:hover {
+        color: $nickel
+    }
+}
+
+.h4__active {
+    &:active {
+        color: $light-gray;
+    }
+}

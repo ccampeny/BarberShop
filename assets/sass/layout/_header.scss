@@ -1,0 +1,31 @@
+header {
+    background-image: url("../img/post-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.titulo__header {
+    font-family: $playfair;
+    font-weight: $black900;
+    font-size: $xx-large;
+    position: relative;
+    top: 250px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px){
+    .titulo__header {
+        font-size: $large-h1;
+        max-width: 400px;
+    }
+}
+
+.icono__abajo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 500px;
+}
